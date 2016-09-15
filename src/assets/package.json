@@ -1,0 +1,6 @@
+{
+  "main" : "index.js",
+  "version" : "0.0.1",
+  "name": "Angular 2 Electron",
+  "description": "Quick Start for Angular 2.0.0 Electron"
+}

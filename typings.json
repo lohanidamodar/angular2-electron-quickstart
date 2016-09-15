@@ -1,0 +1,14 @@
+{
+  "globalDependencies": {
+    "core-js": "registry:dt/core-js#0.0.0+20160725163759",
+    "jasmine": "registry:dt/jasmine#2.2.0+20160621224255",
+    "node": "registry:dt/node#6.0.0+20160909174046",
+    "pouchdb": "registry:dt/pouchdb#5.4.4+20160724064500",
+    "pouchdb-adapter-websql": "registry:dt/pouchdb-adapter-websql#5.4.4+20160724064500",
+    "pouchdb-core": "registry:dt/pouchdb-core#5.4.4+20160824162854",
+    "pouchdb-http": "registry:dt/pouchdb-http#5.4.4+20160724064500",
+    "pouchdb-mapreduce": "registry:dt/pouchdb-mapreduce#5.4.4+20160724064500",
+    "pouchdb-node": "registry:dt/pouchdb-node#5.4.4+20160724064500",
+    "pouchdb-replication": "registry:dt/pouchdb-replication#5.4.4+20160724064500"
+  }
+}
