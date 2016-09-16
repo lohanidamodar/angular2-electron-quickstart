@@ -9,8 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var PouchDB = require('pouchdb');
 var AppComponent = (function () {
     function AppComponent() {
+        this.db = new PouchDB('gaming');
+        this.db.put({
+            _id: 'gg',
+            name: 'GAMINGMANIAC'
+        }).then(function (gg) {
+            console.log(gg);
+        });
+        console.log(this.db);
     }
     AppComponent = __decorate([
         core_1.Component({
