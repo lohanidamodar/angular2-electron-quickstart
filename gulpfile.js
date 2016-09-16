@@ -18,7 +18,7 @@ gulp.task('copy:scripts', function(){
 });
 
 gulp.task('browserify',function(){
-  gulp.src('src/frontend/app/main.js')
+  return gulp.src('src/frontend/app/main.js')
         .pipe(browserify({
           insertGlobals : true,
           debug : !gulp.env.production
